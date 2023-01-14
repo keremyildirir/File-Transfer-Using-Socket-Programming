@@ -5,7 +5,7 @@ from cryptography.fernet import Fernet
 
 # device's IP address
 SERVER_HOST = "0.0.0.0"
-SERVER_PORT = 11467
+SERVER_PORT = # Port Number
 
 # receive 4096 bytes each time
 BUFFER_SIZE = 4096
