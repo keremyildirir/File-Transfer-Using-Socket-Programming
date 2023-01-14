@@ -52,6 +52,6 @@ if __name__ == "__main__":
     parser.add_argument("file", help="File name to send")
     args = parser.parse_args()
     filename = args.file
-    host = "3.83.178.221"
-    port = 11467
+    host = "" # Host IP Adress
+    port =    # Port Number
     send_file(filename, host, port)
